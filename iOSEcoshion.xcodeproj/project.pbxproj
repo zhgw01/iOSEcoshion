@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D46DD69BAEC9D27C714BF035 /* libPods-iOSEcoshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */; };
 		F2C374E51A47C5A900AFEFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E41A47C5A900AFEFD0 /* main.m */; };
 		F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */; };
 		F2C374EB1A47C5AA00AFEFD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374EA1A47C5AA00AFEFD0 /* ViewController.m */; };
@@ -14,6 +15,24 @@
 		F2C374F01A47C5AA00AFEFD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EF1A47C5AA00AFEFD0 /* Images.xcassets */; };
 		F2C374F31A47C5AA00AFEFD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C374F11A47C5AA00AFEFD0 /* LaunchScreen.xib */; };
 		F2C374FF1A47C5AA00AFEFD0 /* iOSEcoshionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374FE1A47C5AA00AFEFD0 /* iOSEcoshionTests.m */; };
+		F2F71F171A480C2F0088B576 /* CAShapeLayer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71EF61A480C2F0088B576 /* CAShapeLayer+Addition.m */; };
+		F2F71F181A480C2F0088B576 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71EF81A480C2F0088B576 /* NSDate+Addition.m */; };
+		F2F71F191A480C2F0088B576 /* NSFileManager+ Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71EF91A480C2F0088B576 /* NSFileManager+ Addition.m */; };
+		F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71EFC1A480C2F0088B576 /* NSString+Addition.m */; };
+		F2F71F1B1A480C2F0088B576 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71EFE1A480C2F0088B576 /* NSString+MD5Addition.m */; };
+		F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F001A480C2F0088B576 /* NSString+Regular.m */; };
+		F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F021A480C2F0088B576 /* NSString+Size.m */; };
+		F2F71F1E1A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F041A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m */; };
+		F2F71F1F1A480C2F0088B576 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F061A480C2F0088B576 /* UIColor+Addition.m */; };
+		F2F71F201A480C2F0088B576 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F081A480C2F0088B576 /* UIImage+Addition.m */; };
+		F2F71F211A480C2F0088B576 /* UIImage+BlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F0A1A480C2F0088B576 /* UIImage+BlurEffect.m */; };
+		F2F71F221A480C2F0088B576 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F0C1A480C2F0088B576 /* UIImage+ImageWithColor.m */; };
+		F2F71F231A480C2F0088B576 /* UINavigationController+BarColorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F0E1A480C2F0088B576 /* UINavigationController+BarColorStyle.m */; };
+		F2F71F241A480C2F0088B576 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F101A480C2F0088B576 /* UIView+Addition.m */; };
+		F2F71F251A480C2F0088B576 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F121A480C2F0088B576 /* UIView+Animation.m */; };
+		F2F71F261A480C2F0088B576 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F141A480C2F0088B576 /* UIView+Frame.m */; };
+		F2F71F271A480C2F0088B576 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F161A480C2F0088B576 /* UIViewController+Addition.m */; };
+		F2F71F2A1A480D030088B576 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F291A480D030088B576 /* OverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E743538675D2A0AA084CBA4 /* Pods-iOSEcoshion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSEcoshion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSEcoshion/Pods-iOSEcoshion.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0CF38ACF2E9A5BEA30B5D1 /* Pods-iOSEcoshion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSEcoshion.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSEcoshion/Pods-iOSEcoshion.release.xcconfig"; sourceTree = "<group>"; };
+		91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSEcoshion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374DF1A47C5A900AFEFD0 /* iOSEcoshion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEcoshion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374E31A47C5A900AFEFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C374E41A47C5A900AFEFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +62,42 @@
 		F2C374F81A47C5AA00AFEFD0 /* iOSEcoshionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSEcoshionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374FD1A47C5AA00AFEFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C374FE1A47C5AA00AFEFD0 /* iOSEcoshionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSEcoshionTests.m; sourceTree = "<group>"; };
+		F2F71EF51A480C2F0088B576 /* CAShapeLayer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Addition.h"; sourceTree = "<group>"; };
+		F2F71EF61A480C2F0088B576 /* CAShapeLayer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Addition.m"; sourceTree = "<group>"; };
+		F2F71EF71A480C2F0088B576 /* NSDate+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		F2F71EF81A480C2F0088B576 /* NSDate+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		F2F71EF91A480C2F0088B576 /* NSFileManager+ Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ Addition.m"; sourceTree = "<group>"; };
+		F2F71EFA1A480C2F0088B576 /* NSFileManager+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Addition.h"; sourceTree = "<group>"; };
+		F2F71EFB1A480C2F0088B576 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		F2F71EFC1A480C2F0088B576 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		F2F71EFD1A480C2F0088B576 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		F2F71EFE1A480C2F0088B576 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		F2F71EFF1A480C2F0088B576 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
+		F2F71F001A480C2F0088B576 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
+		F2F71F011A480C2F0088B576 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		F2F71F021A480C2F0088B576 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		F2F71F031A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NetworkActivityIndicator.h"; sourceTree = "<group>"; };
+		F2F71F041A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		F2F71F051A480C2F0088B576 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		F2F71F061A480C2F0088B576 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		F2F71F071A480C2F0088B576 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
+		F2F71F081A480C2F0088B576 /* UIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
+		F2F71F091A480C2F0088B576 /* UIImage+BlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurEffect.h"; sourceTree = "<group>"; };
+		F2F71F0A1A480C2F0088B576 /* UIImage+BlurEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurEffect.m"; sourceTree = "<group>"; };
+		F2F71F0B1A480C2F0088B576 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		F2F71F0C1A480C2F0088B576 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		F2F71F0D1A480C2F0088B576 /* UINavigationController+BarColorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BarColorStyle.h"; sourceTree = "<group>"; };
+		F2F71F0E1A480C2F0088B576 /* UINavigationController+BarColorStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BarColorStyle.m"; sourceTree = "<group>"; };
+		F2F71F0F1A480C2F0088B576 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		F2F71F101A480C2F0088B576 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		F2F71F111A480C2F0088B576 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		F2F71F121A480C2F0088B576 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		F2F71F131A480C2F0088B576 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F2F71F141A480C2F0088B576 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F2F71F151A480C2F0088B576 /* UIViewController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Addition.h"; sourceTree = "<group>"; };
+		F2F71F161A480C2F0088B576 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
+		F2F71F281A480D030088B576 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		F2F71F291A480D030088B576 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46DD69BAEC9D27C714BF035 /* libPods-iOSEcoshion.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +119,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8998E4FF8C0E2CB9FAB31ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3F93190480D1FEAFA140F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E743538675D2A0AA084CBA4 /* Pods-iOSEcoshion.debug.xcconfig */,
+				7F0CF38ACF2E9A5BEA30B5D1 /* Pods-iOSEcoshion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F2C374D61A47C5A900AFEFD0 = {
 			isa = PBXGroup;
 			children = (
 				F2C374E11A47C5A900AFEFD0 /* iOSEcoshion */,
 				F2C374FB1A47C5AA00AFEFD0 /* iOSEcoshionTests */,
 				F2C374E01A47C5A900AFEFD0 /* Products */,
+				DB3F93190480D1FEAFA140F6 /* Pods */,
+				8998E4FF8C0E2CB9FAB31ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +159,11 @@
 		F2C374E11A47C5A900AFEFD0 /* iOSEcoshion */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71EF21A47FF510088B576 /* Controller */,
+				F2F71EF31A47FF510088B576 /* Model */,
+				F2F71EF41A47FF510088B576 /* View */,
+				F2F71EEE1A47FEE90088B576 /* Vendor */,
+				F2F71EED1A47FED80088B576 /* Catagory */,
 				F2C374E61A47C5A900AFEFD0 /* AppDelegate.h */,
 				F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */,
 				F2C374E91A47C5AA00AFEFD0 /* ViewController.h */,
@@ -119,6 +202,77 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2F71EED1A47FED80088B576 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				F2F71EF51A480C2F0088B576 /* CAShapeLayer+Addition.h */,
+				F2F71EF61A480C2F0088B576 /* CAShapeLayer+Addition.m */,
+				F2F71EF71A480C2F0088B576 /* NSDate+Addition.h */,
+				F2F71EF81A480C2F0088B576 /* NSDate+Addition.m */,
+				F2F71EF91A480C2F0088B576 /* NSFileManager+ Addition.m */,
+				F2F71EFA1A480C2F0088B576 /* NSFileManager+Addition.h */,
+				F2F71EFB1A480C2F0088B576 /* NSString+Addition.h */,
+				F2F71EFC1A480C2F0088B576 /* NSString+Addition.m */,
+				F2F71EFD1A480C2F0088B576 /* NSString+MD5Addition.h */,
+				F2F71EFE1A480C2F0088B576 /* NSString+MD5Addition.m */,
+				F2F71EFF1A480C2F0088B576 /* NSString+Regular.h */,
+				F2F71F001A480C2F0088B576 /* NSString+Regular.m */,
+				F2F71F011A480C2F0088B576 /* NSString+Size.h */,
+				F2F71F021A480C2F0088B576 /* NSString+Size.m */,
+				F2F71F031A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.h */,
+				F2F71F041A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m */,
+				F2F71F051A480C2F0088B576 /* UIColor+Addition.h */,
+				F2F71F061A480C2F0088B576 /* UIColor+Addition.m */,
+				F2F71F071A480C2F0088B576 /* UIImage+Addition.h */,
+				F2F71F081A480C2F0088B576 /* UIImage+Addition.m */,
+				F2F71F091A480C2F0088B576 /* UIImage+BlurEffect.h */,
+				F2F71F0A1A480C2F0088B576 /* UIImage+BlurEffect.m */,
+				F2F71F0B1A480C2F0088B576 /* UIImage+ImageWithColor.h */,
+				F2F71F0C1A480C2F0088B576 /* UIImage+ImageWithColor.m */,
+				F2F71F0D1A480C2F0088B576 /* UINavigationController+BarColorStyle.h */,
+				F2F71F0E1A480C2F0088B576 /* UINavigationController+BarColorStyle.m */,
+				F2F71F0F1A480C2F0088B576 /* UIView+Addition.h */,
+				F2F71F101A480C2F0088B576 /* UIView+Addition.m */,
+				F2F71F111A480C2F0088B576 /* UIView+Animation.h */,
+				F2F71F121A480C2F0088B576 /* UIView+Animation.m */,
+				F2F71F131A480C2F0088B576 /* UIView+Frame.h */,
+				F2F71F141A480C2F0088B576 /* UIView+Frame.m */,
+				F2F71F151A480C2F0088B576 /* UIViewController+Addition.h */,
+				F2F71F161A480C2F0088B576 /* UIViewController+Addition.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		F2F71EEE1A47FEE90088B576 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F2F71EF21A47FF510088B576 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2F71EF31A47FF510088B576 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F71EF41A47FF510088B576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2F71F281A480D030088B576 /* OverlayView.h */,
+				F2F71F291A480D030088B576 /* OverlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C375021A47C5AA00AFEFD0 /* Build configuration list for PBXNativeTarget "iOSEcoshion" */;
 			buildPhases = (
+				94742CA40C381B0B9F5E4219 /* Check Pods Manifest.lock */,
 				F2C374DB1A47C5A900AFEFD0 /* Sources */,
 				F2C374DC1A47C5A900AFEFD0 /* Frameworks */,
 				F2C374DD1A47C5A900AFEFD0 /* Resources */,
+				F3FA158E6E64245EE00EFF17 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +370,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94742CA40C381B0B9F5E4219 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3FA158E6E64245EE00EFF17 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSEcoshion/Pods-iOSEcoshion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2C374DB1A47C5A900AFEFD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F71F241A480C2F0088B576 /* UIView+Addition.m in Sources */,
+				F2F71F181A480C2F0088B576 /* NSDate+Addition.m in Sources */,
+				F2F71F1E1A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m in Sources */,
+				F2F71F251A480C2F0088B576 /* UIView+Animation.m in Sources */,
+				F2F71F201A480C2F0088B576 /* UIImage+Addition.m in Sources */,
+				F2F71F231A480C2F0088B576 /* UINavigationController+BarColorStyle.m in Sources */,
+				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
 				F2C374EB1A47C5AA00AFEFD0 /* ViewController.m in Sources */,
+				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
+				F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */,
+				F2F71F261A480C2F0088B576 /* UIView+Frame.m in Sources */,
+				F2F71F211A480C2F0088B576 /* UIImage+BlurEffect.m in Sources */,
 				F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */,
 				F2C374E51A47C5A900AFEFD0 /* main.m in Sources */,
+				F2F71F221A480C2F0088B576 /* UIImage+ImageWithColor.m in Sources */,
+				F2F71F171A480C2F0088B576 /* CAShapeLayer+Addition.m in Sources */,
+				F2F71F2A1A480D030088B576 /* OverlayView.m in Sources */,
+				F2F71F1F1A480C2F0088B576 /* UIColor+Addition.m in Sources */,
+				F2F71F1B1A480C2F0088B576 /* NSString+MD5Addition.m in Sources */,
+				F2F71F271A480C2F0088B576 /* UIViewController+Addition.m in Sources */,
+				F2F71F191A480C2F0088B576 /* NSFileManager+ Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +548,11 @@
 		};
 		F2C375031A47C5AA00AFEFD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E743538675D2A0AA084CBA4 /* Pods-iOSEcoshion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSEcoshion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,9 +560,11 @@
 		};
 		F2C375041A47C5AA00AFEFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0CF38ACF2E9A5BEA30B5D1 /* Pods-iOSEcoshion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSEcoshion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +623,7 @@
 				F2C375041A47C5AA00AFEFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2C375051A47C5AA00AFEFD0 /* Build configuration list for PBXNativeTarget "iOSEcoshionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +632,7 @@
 				F2C375071A47C5AA00AFEFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
