@@ -161,6 +161,7 @@
 		F2C374E11A47C5A900AFEFD0 /* iOSEcoshion */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71F641A4903190088B576 /* Storyboard */,
 				F2F71F2B1A480DE20088B576 /* Utils */,
 				F2F71EF21A47FF510088B576 /* Controller */,
 				F2F71EF31A47FF510088B576 /* Model */,
@@ -171,7 +172,6 @@
 				F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */,
 				F2C374E91A47C5AA00AFEFD0 /* ViewController.h */,
 				F2C374EA1A47C5AA00AFEFD0 /* ViewController.m */,
-				F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */,
 				F2C374EF1A47C5AA00AFEFD0 /* Images.xcassets */,
 				F2C374F11A47C5AA00AFEFD0 /* LaunchScreen.xib */,
 				F2C374E21A47C5A900AFEFD0 /* Supporting Files */,
@@ -283,6 +283,14 @@
 				F2F71F2C1A480ED80088B576 /* Macros.h */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F2F71F641A4903190088B576 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +477,7 @@
 				F2C374ED1A47C5AA00AFEFD0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F2C374F11A47C5AA00AFEFD0 /* LaunchScreen.xib */ = {
