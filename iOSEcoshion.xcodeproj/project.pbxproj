@@ -33,6 +33,11 @@
 		F2F71F261A480C2F0088B576 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F141A480C2F0088B576 /* UIView+Frame.m */; };
 		F2F71F271A480C2F0088B576 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F161A480C2F0088B576 /* UIViewController+Addition.m */; };
 		F2F71F2A1A480D030088B576 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F291A480D030088B576 /* OverlayView.m */; };
+		F2F71F661A4903DF0088B576 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F651A4903DF0088B576 /* Feed.storyboard */; };
+		F2F71F681A4903E80088B576 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F671A4903E80088B576 /* Shop.storyboard */; };
+		F2F71F6A1A4903FC0088B576 /* Sell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F691A4903FC0088B576 /* Sell.storyboard */; };
+		F2F71F6C1A4904090088B576 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F6B1A4904090088B576 /* News.storyboard */; };
+		F2F71F6E1A4904230088B576 /* Myself.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F6D1A4904230088B576 /* Myself.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +105,11 @@
 		F2F71F291A480D030088B576 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		F2F71F2C1A480ED80088B576 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		F2F71F2D1A480FE30088B576 /* iOSEcoshion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSEcoshion-Prefix.pch"; sourceTree = "<group>"; };
+		F2F71F651A4903DF0088B576 /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		F2F71F671A4903E80088B576 /* Shop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		F2F71F691A4903FC0088B576 /* Sell.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sell.storyboard; sourceTree = "<group>"; };
+		F2F71F6B1A4904090088B576 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		F2F71F6D1A4904230088B576 /* Myself.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Myself.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +299,11 @@
 			isa = PBXGroup;
 			children = (
 				F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */,
+				F2F71F651A4903DF0088B576 /* Feed.storyboard */,
+				F2F71F671A4903E80088B576 /* Shop.storyboard */,
+				F2F71F691A4903FC0088B576 /* Sell.storyboard */,
+				F2F71F6B1A4904090088B576 /* News.storyboard */,
+				F2F71F6D1A4904230088B576 /* Myself.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -375,8 +390,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F71F6E1A4904230088B576 /* Myself.storyboard in Resources */,
 				F2C374EE1A47C5AA00AFEFD0 /* Main.storyboard in Resources */,
+				F2F71F681A4903E80088B576 /* Shop.storyboard in Resources */,
+				F2F71F6A1A4903FC0088B576 /* Sell.storyboard in Resources */,
 				F2C374F31A47C5AA00AFEFD0 /* LaunchScreen.xib in Resources */,
+				F2F71F6C1A4904090088B576 /* News.storyboard in Resources */,
+				F2F71F661A4903DF0088B576 /* Feed.storyboard in Resources */,
 				F2C374F01A47C5AA00AFEFD0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
