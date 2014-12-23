@@ -1,39 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="dZz-es-VnP">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--消息-->
+        <scene sceneID="rAL-G3-Q2X">
+            <objects>
+                <viewController id="e9S-IR-i6s" customClass="TemplateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jFn-IJ-9Z3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="消息" id="F8L-Td-PP4"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Meh-aS-JEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="1271"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="7Ha-7S-jwh">
+            <objects>
+                <viewController id="ZtJ-GX-esD" customClass="TemplateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iy5-LB-NSs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我" id="Utq-oX-eA5"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-IR-Dnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="335" y="1271"/>
+        </scene>
+        <!--发布-->
+        <scene sceneID="lUm-gm-tXZ">
+            <objects>
+                <viewController id="1yi-SH-LtP" customClass="TemplateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ip2-JH-mKT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发布" id="rzW-TO-gV4"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tX8-9m-ATI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-365" y="1271"/>
+        </scene>
+        <!--购物-->
         <scene sceneID="GSI-lZ-Otr">
             <objects>
-                <viewController id="K7e-pN-Otp" sceneMemberID="viewController">
+                <viewController id="K7e-pN-Otp" customClass="TemplateViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C2f-nH-7q4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="hIa-vp-dFa"/>
+                    <tabBarItem key="tabBarItem" title="购物" id="hIa-vp-dFa"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPl-7o-DuY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="434" y="661"/>
+            <point key="canvasLocation" x="312" y="513"/>
         </scene>
-        <!--Item 1-->
+        <!--首页-->
         <scene sceneID="nnx-Y7-1MB">
             <objects>
-                <viewController id="RBZ-hL-ZMF" sceneMemberID="viewController">
+                <viewController id="RBZ-hL-ZMF" customClass="TemplateViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s1y-Vs-cmG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="oQ0-Nm-IsP"/>
+                    <tabBarItem key="tabBarItem" title="首页" id="oQ0-Nm-IsP"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBq-QP-HGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="434" y="31"/>
+            <point key="canvasLocation" x="312" y="-117"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="M0d-tG-bEF">
@@ -48,6 +118,9 @@
                     <connections>
                         <segue destination="RBZ-hL-ZMF" kind="relationship" relationship="viewControllers" id="3pb-g3-Qek"/>
                         <segue destination="K7e-pN-Otp" kind="relationship" relationship="viewControllers" id="g6q-uh-6uR"/>
+                        <segue destination="1yi-SH-LtP" kind="relationship" relationship="viewControllers" id="7Fl-mt-S1i"/>
+                        <segue destination="e9S-IR-i6s" kind="relationship" relationship="viewControllers" id="dYa-PO-6c3"/>
+                        <segue destination="ZtJ-GX-esD" kind="relationship" relationship="viewControllers" id="iiS-xG-fhC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WWY-Tf-pSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
