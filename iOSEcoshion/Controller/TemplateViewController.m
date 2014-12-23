@@ -16,7 +16,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UIStoryboard *storyboard = nil;
+    UINavigationController *viewController;
+    switch (self.tabType) {
+        case FeedViewController:{
+            storyboard = [UIStoryboard storyboardWithName:@"Feed" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"FeedNavigationController"];
+        }
+            break;
+        case ShopViewController:{
+            storyboard = [UIStoryboard storyboardWithName:@"Shop" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"ShopNavigationController"];
+        }
+            break;
+        case SellViewController:{
+            storyboard = [UIStoryboard storyboardWithName:@"Sell" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"SellNavigationController"];
+        }
+            break;
+        case NewsViewController:{
+            storyboard = [UIStoryboard storyboardWithName:@"News" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"NewsNavigationController"];
+        }
+            break;
+        case MyselfViewController:{
+            storyboard = [UIStoryboard storyboardWithName:@"Myself" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"MyselfNavigationController"];
+        }
+            break;
+    }
+    
+    [self.view addSubview:viewController.view];
+    [self addChildViewController:viewController];
 }
 
 - (void)didReceiveMemoryWarning {
