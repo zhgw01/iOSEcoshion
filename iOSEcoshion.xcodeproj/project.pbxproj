@@ -10,7 +10,6 @@
 		D46DD69BAEC9D27C714BF035 /* libPods-iOSEcoshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */; };
 		F2C374E51A47C5A900AFEFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E41A47C5A900AFEFD0 /* main.m */; };
 		F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */; };
-		F2C374EB1A47C5AA00AFEFD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374EA1A47C5AA00AFEFD0 /* ViewController.m */; };
 		F2C374EE1A47C5AA00AFEFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */; };
 		F2C374F01A47C5AA00AFEFD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EF1A47C5AA00AFEFD0 /* Images.xcassets */; };
 		F2C374F31A47C5AA00AFEFD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C374F11A47C5AA00AFEFD0 /* LaunchScreen.xib */; };
@@ -60,8 +59,6 @@
 		F2C374E41A47C5A900AFEFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C374E61A47C5A900AFEFD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2C374E91A47C5AA00AFEFD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2C374EA1A47C5AA00AFEFD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F2C374ED1A47C5AA00AFEFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C374EF1A47C5AA00AFEFD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2C374F21A47C5AA00AFEFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -183,8 +180,6 @@
 				F2F71EED1A47FED80088B576 /* Catagory */,
 				F2C374E61A47C5A900AFEFD0 /* AppDelegate.h */,
 				F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */,
-				F2C374E91A47C5AA00AFEFD0 /* ViewController.h */,
-				F2C374EA1A47C5AA00AFEFD0 /* ViewController.m */,
 				F2C374EF1A47C5AA00AFEFD0 /* Images.xcassets */,
 				F2C374F11A47C5AA00AFEFD0 /* LaunchScreen.xib */,
 				F2C374E21A47C5A900AFEFD0 /* Supporting Files */,
@@ -500,7 +495,6 @@
 				F2F71F201A480C2F0088B576 /* UIImage+Addition.m in Sources */,
 				F2F71F231A480C2F0088B576 /* UINavigationController+BarColorStyle.m in Sources */,
 				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
-				F2C374EB1A47C5AA00AFEFD0 /* ViewController.m in Sources */,
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
 				F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */,
