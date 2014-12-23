@@ -38,6 +38,7 @@
 		F2F71F6C1A4904090088B576 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F6B1A4904090088B576 /* News.storyboard */; };
 		F2F71F6E1A4904230088B576 /* Myself.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F6D1A4904230088B576 /* Myself.storyboard */; };
 		F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F701A49049B0088B576 /* TemplateViewController.m */; };
+		F2F71F781A494CB10088B576 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F771A494CB10088B576 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		F2F71F6D1A4904230088B576 /* Myself.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Myself.storyboard; sourceTree = "<group>"; };
 		F2F71F6F1A49049B0088B576 /* TemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
 		F2F71F701A49049B0088B576 /* TemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
+		F2F71F771A494CB10088B576 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 				F2F71F691A4903FC0088B576 /* Sell.storyboard */,
 				F2F71F6B1A4904090088B576 /* News.storyboard */,
 				F2F71F6D1A4904230088B576 /* Myself.storyboard */,
+				F2F71F771A494CB10088B576 /* Login.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				F2F71F6C1A4904090088B576 /* News.storyboard in Resources */,
 				F2F71F661A4903DF0088B576 /* Feed.storyboard in Resources */,
 				F2C374F01A47C5AA00AFEFD0 /* Images.xcassets in Resources */,
+				F2F71F781A494CB10088B576 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
