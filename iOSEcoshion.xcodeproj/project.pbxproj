@@ -270,13 +270,13 @@
 		F2F71EF21A47FF510088B576 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71F6F1A49049B0088B576 /* TemplateViewController.h */,
+				F2F71F701A49049B0088B576 /* TemplateViewController.m */,
 				F2F71F721A4920810088B576 /* Feed */,
 				F2F71F731A4920810088B576 /* Myself */,
 				F2F71F741A4920810088B576 /* News */,
 				F2F71F751A4920810088B576 /* Sell */,
 				F2F71F761A4920810088B576 /* Shop */,
-				F2F71F6F1A49049B0088B576 /* TemplateViewController.h */,
-				F2F71F701A49049B0088B576 /* TemplateViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
