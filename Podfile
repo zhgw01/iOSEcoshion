@@ -18,6 +18,7 @@ pod 'XBImageFilters', '~> 1.1.2'
 pod 'TMCache', '~> 1.2.3'
 pod 'Mantle', '~> 1.5.1'
 pod 'FXNotifications', '~> 1.1'
+pod 'KVOController', '~> 1.0.3'
 pod 'ObjectiveSugar', '~> 1.1.0'
 
 end

@@ -9,7 +9,6 @@
 #define OverlayViewTag 12368
 
 #import "OverlayView.h"
-#import "AppearanceManager.h"
 
 @interface OverlayView ()
 
@@ -25,7 +24,7 @@
     if (self = [super initWithFrame:CGRectMake(0, -64, mScreenWidth, mStatusBarHeight + mNavBarHeight)]) {
         [[mKeyWindow viewWithTag:OverlayViewTag] removeFromSuperview];
         
-        self.backgroundColor = [mAppearanceManager navigationBarColor];
+        self.backgroundColor = [UIColor colorWithWhite:0.174 alpha:1.000];
         self.tag = OverlayViewTag;
         
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 20.0, mScreenWidth, 44.0)];
@@ -60,7 +59,7 @@
         UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
         cancelButton.frame = CGRectMake(mScreenWidth - 60.0, mStatusBarHeight, 60.0, mNavBarHeight);
         [cancelButton setTitle:@"取消" forState:UIControlStateNormal];
-        [cancelButton setTitleColor:[mAppearanceManager itemNormalColor] forState:UIControlStateNormal];
+        [cancelButton setTitleColor:[UIColor colorWithRed:0.315 green:1.000 blue:0.775 alpha:1.000] forState:UIControlStateNormal];
         [cancelButton addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:cancelButton];
     }
@@ -109,7 +108,7 @@
 
 - (void)dealloc
 {
-    SLLOG(@"overlay dealloc");
+    DEBUGLOG(@"overlay dealloc");
 }
 
 //- (instancetype)initWithTitle:(NSString *)aTitle buttonTarget:(id)target action:(SEL)selector automaticallyFadeOut:(BOOL)fadeout

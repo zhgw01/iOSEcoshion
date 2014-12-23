@@ -98,6 +98,8 @@
 		F2F71F161A480C2F0088B576 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
 		F2F71F281A480D030088B576 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		F2F71F291A480D030088B576 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		F2F71F2C1A480ED80088B576 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		F2F71F2D1A480FE30088B576 /* iOSEcoshion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSEcoshion-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		F2C374E11A47C5A900AFEFD0 /* iOSEcoshion */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71F2B1A480DE20088B576 /* Utils */,
 				F2F71EF21A47FF510088B576 /* Controller */,
 				F2F71EF31A47FF510088B576 /* Model */,
 				F2F71EF41A47FF510088B576 /* View */,
@@ -181,6 +184,7 @@
 			children = (
 				F2C374E31A47C5A900AFEFD0 /* Info.plist */,
 				F2C374E41A47C5A900AFEFD0 /* main.m */,
+				F2F71F2D1A480FE30088B576 /* iOSEcoshion-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -271,6 +275,14 @@
 				F2F71F291A480D030088B576 /* OverlayView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F2F71F2B1A480DE20088B576 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F2F71F2C1A480ED80088B576 /* Macros.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -551,6 +563,8 @@
 			baseConfigurationReference = 2E743538675D2A0AA084CBA4 /* Pods-iOSEcoshion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSEcoshion/iOSEcoshion-Prefix.pch";
 				INFOPLIST_FILE = iOSEcoshion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -563,6 +577,8 @@
 			baseConfigurationReference = 7F0CF38ACF2E9A5BEA30B5D1 /* Pods-iOSEcoshion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSEcoshion/iOSEcoshion-Prefix.pch";
 				INFOPLIST_FILE = iOSEcoshion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

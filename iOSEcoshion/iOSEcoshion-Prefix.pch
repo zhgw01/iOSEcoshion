@@ -1,0 +1,36 @@
+//
+//  iOSEcoshionPrefix.pch
+//  iOSEcoshion
+//
+//  Created by 马俊 on 12/22/14.
+//  Copyright (c) 2014 ChaseFuture. All rights reserved.
+//
+
+#ifndef iOSEcoshion_iOSEcoshionPrefix_pch
+#define iOSEcoshion_iOSEcoshionPrefix_pch
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Macros.h"
+    #import "CAShapeLayer+Addition.h"
+    #import "NSDate+Addition.h"
+    #import "NSFileManager+Addition.h"
+    #import "NSString+Size.h"
+    #import "NSString+Regular.h"
+    #import "NSString+Addition.h"
+    #import "NSString+MD5Addition.h"
+    #import "UIApplication+NetworkActivityIndicator.h"
+    #import "UIColor+Addition.h"
+    #import "UIImage+Addition.h"
+    #import "UIImage+BlurEffect.h"
+    #import "UIImage+ImageWithColor.h"
+    #import "UIView+Frame.h"
+    #import "UIView+Addition.h"
+    #import "UIView+Animation.h"
+    #import "UIViewController+Addition.h"
+#endif
+
+#endif
