@@ -61,14 +61,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有账号，点此" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZX-n5-iz8">
-                                <rect key="frame" x="16" y="339" width="179" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqv-0H-SHV">
-                                <rect key="frame" x="203" y="335" width="30" height="30"/>
+                                <rect key="frame" x="229.5" y="335" width="30" height="30"/>
                                 <state key="normal" title="登录">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -76,32 +70,36 @@
                                     <segue destination="pQH-Z6-8Ly" kind="push" id="UDS-V4-LTp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有账号，点此" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZX-n5-iz8">
+                                <rect key="frame" x="100.5" y="339" width="119" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="089-eP-bQ5"/>
                             <constraint firstItem="Wto-rd-1CJ" firstAttribute="top" secondItem="sqo-X2-clg" secondAttribute="bottom" constant="77" id="16J-5D-Unn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gZX-n5-iz8" secondAttribute="trailing" constant="109" id="9tg-u9-aqJ"/>
+                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="4" id="8vo-5u-k6f"/>
                             <constraint firstItem="sqo-X2-clg" firstAttribute="top" secondItem="1yq-cv-eR5" secondAttribute="bottom" constant="20" id="BlW-AG-580"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="leading" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="10" id="CPM-MK-yyU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Gu1-E9-qdo" secondAttribute="trailing" id="CRa-Wt-PTz"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="trailing" secondItem="4PY-Oa-K0L" secondAttribute="trailingMargin" id="DiT-EW-rZ8"/>
                             <constraint firstItem="1yq-cv-eR5" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="KuP-Nv-IfI"/>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="width" secondItem="1yq-cv-eR5" secondAttribute="width" id="Kz6-2r-bEn"/>
+                            <constraint firstAttribute="centerX" secondItem="gZX-n5-iz8" secondAttribute="centerX" id="P21-48-VWK"/>
+                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="leading" secondItem="gZX-n5-iz8" secondAttribute="trailing" constant="10" id="VdM-qX-Ocx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="100" id="WR9-Xb-rTH"/>
-                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="leading" secondItem="gZX-n5-iz8" secondAttribute="trailing" constant="8" id="Xq5-ce-5Qv"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="top" secondItem="1yq-cv-eR5" secondAttribute="bottom" constant="20" id="ZsN-di-Dh9"/>
-                            <constraint firstItem="gZX-n5-iz8" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="csC-HA-tXY"/>
+                            <constraint firstItem="gZX-n5-iz8" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="8" id="d4I-IU-E8Z"/>
                             <constraint firstItem="sqo-X2-clg" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="eKJ-ko-YHS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1yq-cv-eR5" secondAttribute="trailing" id="f4b-u7-rGo"/>
                             <constraint firstItem="Wto-rd-1CJ" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="hps-RE-kyv"/>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="height" secondItem="1yq-cv-eR5" secondAttribute="height" id="hz6-Ot-nBP"/>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="top" secondItem="XOv-gd-8JJ" secondAttribute="bottom" constant="30" id="m11-Dj-HYD"/>
-                            <constraint firstItem="gZX-n5-iz8" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="8" id="sO2-Yh-Kq3"/>
                             <constraint firstItem="Wto-rd-1CJ" firstAttribute="trailing" secondItem="4PY-Oa-K0L" secondAttribute="trailingMargin" id="uUS-h4-oPG"/>
                             <constraint firstItem="1yq-cv-eR5" firstAttribute="top" secondItem="Gu1-E9-qdo" secondAttribute="bottom" constant="20" id="xJ2-hw-QRa"/>
-                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="4" id="yXU-94-pVC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Lqv-0H-SHV" secondAttribute="trailing" constant="71" id="yc2-Nw-J1S"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="手机注册" id="cHv-0P-LLW"/>
