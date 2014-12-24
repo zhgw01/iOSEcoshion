@@ -39,6 +39,7 @@
 		F2F71F6E1A4904230088B576 /* Myself.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F6D1A4904230088B576 /* Myself.storyboard */; };
 		F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F701A49049B0088B576 /* TemplateViewController.m */; };
 		F2F71F781A494CB10088B576 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F771A494CB10088B576 /* Login.storyboard */; };
+		F2F71F7B1A4AB3460088B576 /* AppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		F2F71F6F1A49049B0088B576 /* TemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
 		F2F71F701A49049B0088B576 /* TemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
 		F2F71F771A494CB10088B576 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		F2F71F791A4AB3460088B576 /* AppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceManager.h; sourceTree = "<group>"; };
+		F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +301,8 @@
 			isa = PBXGroup;
 			children = (
 				F2F71F2C1A480ED80088B576 /* Macros.h */,
+				F2F71F791A4AB3460088B576 /* AppearanceManager.h */,
+				F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2F71F241A480C2F0088B576 /* UIView+Addition.m in Sources */,
+				F2F71F7B1A4AB3460088B576 /* AppearanceManager.m in Sources */,
 				F2F71F181A480C2F0088B576 /* NSDate+Addition.m in Sources */,
 				F2F71F1E1A480C2F0088B576 /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				F2F71F251A480C2F0088B576 /* UIView+Animation.m in Sources */,
