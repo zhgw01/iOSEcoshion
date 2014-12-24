@@ -10,4 +10,30 @@
 
 @implementation AppearanceManager
 
+#pragma mark - Absolutely singleton
++ (instancetype)sharedManager
+{
+    static AppearanceManager *manager;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [[AppearanceManager alloc] initPrivate];
+    });
+    
+    return manager;
+}
+
+- (instancetype)init
+{
+    return [[self class] sharedManager];
+}
+
+- (instancetype)initPrivate
+{
+    if (self = [super init]) {
+        
+    }
+    
+    return self;
+}
+
 @end

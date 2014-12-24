@@ -10,4 +10,6 @@
 
 @interface AppearanceManager : NSObject
 
++ (instancetype)sharedManager;
+
 @end

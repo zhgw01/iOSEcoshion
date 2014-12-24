@@ -40,6 +40,9 @@
 		F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F701A49049B0088B576 /* TemplateViewController.m */; };
 		F2F71F781A494CB10088B576 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F71F771A494CB10088B576 /* Login.storyboard */; };
 		F2F71F7B1A4AB3460088B576 /* AppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */; };
+		F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */; };
+		F2F71F821A4AB6CD0088B576 /* PhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */; };
+		F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,12 @@
 		F2F71F771A494CB10088B576 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F2F71F791A4AB3460088B576 /* AppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceManager.h; sourceTree = "<group>"; };
 		F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceManager.m; sourceTree = "<group>"; };
+		F2F71F7D1A4AB6BA0088B576 /* PhoneRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneRegisterViewController.h; sourceTree = "<group>"; };
+		F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneRegisterViewController.m; sourceTree = "<group>"; };
+		F2F71F801A4AB6CD0088B576 /* PhoneLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneLoginViewController.h; sourceTree = "<group>"; };
+		F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneLoginViewController.m; sourceTree = "<group>"; };
+		F2F71F831A4AB6E00088B576 /* PhoneResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneResetPasswordViewController.h; sourceTree = "<group>"; };
+		F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneResetPasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +281,7 @@
 			children = (
 				F2F71F6F1A49049B0088B576 /* TemplateViewController.h */,
 				F2F71F701A49049B0088B576 /* TemplateViewController.m */,
+				F2F71F7C1A4AB6830088B576 /* Login */,
 				F2F71F721A4920810088B576 /* Feed */,
 				F2F71F731A4920810088B576 /* Myself */,
 				F2F71F741A4920810088B576 /* News */,
@@ -354,6 +364,19 @@
 			children = (
 			);
 			path = Shop;
+			sourceTree = "<group>";
+		};
+		F2F71F7C1A4AB6830088B576 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2F71F7D1A4AB6BA0088B576 /* PhoneRegisterViewController.h */,
+				F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */,
+				F2F71F801A4AB6CD0088B576 /* PhoneLoginViewController.h */,
+				F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */,
+				F2F71F831A4AB6E00088B576 /* PhoneResetPasswordViewController.h */,
+				F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,10 +530,13 @@
 				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
+				F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */,
+				F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */,
 				F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */,
 				F2F71F261A480C2F0088B576 /* UIView+Frame.m in Sources */,
 				F2F71F211A480C2F0088B576 /* UIImage+BlurEffect.m in Sources */,
 				F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */,
+				F2F71F821A4AB6CD0088B576 /* PhoneLoginViewController.m in Sources */,
 				F2C374E51A47C5A900AFEFD0 /* main.m in Sources */,
 				F2F71F221A480C2F0088B576 /* UIImage+ImageWithColor.m in Sources */,
 				F2F71F171A480C2F0088B576 /* CAShapeLayer+Addition.m in Sources */,
