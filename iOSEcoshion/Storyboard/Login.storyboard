@@ -56,13 +56,13 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wto-rd-1CJ">
-                                <rect key="frame" x="16" y="301" width="288" height="30"/>
+                                <rect key="frame" x="16" y="269" width="288" height="30"/>
                                 <state key="normal" title="注册">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqv-0H-SHV">
-                                <rect key="frame" x="229.5" y="335" width="30" height="30"/>
+                                <rect key="frame" x="229" y="303" width="30" height="30"/>
                                 <state key="normal" title="登录">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有账号，点此" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZX-n5-iz8">
-                                <rect key="frame" x="100.5" y="339" width="119" height="20.5"/>
+                                <rect key="frame" x="100" y="307" width="119" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -80,7 +80,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="089-eP-bQ5"/>
-                            <constraint firstItem="Wto-rd-1CJ" firstAttribute="top" secondItem="sqo-X2-clg" secondAttribute="bottom" constant="77" id="16J-5D-Unn"/>
                             <constraint firstItem="Lqv-0H-SHV" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="4" id="8vo-5u-k6f"/>
                             <constraint firstItem="sqo-X2-clg" firstAttribute="top" secondItem="1yq-cv-eR5" secondAttribute="bottom" constant="20" id="BlW-AG-580"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="leading" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="10" id="CPM-MK-yyU"/>
@@ -88,6 +87,7 @@
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="trailing" secondItem="4PY-Oa-K0L" secondAttribute="trailingMargin" id="DiT-EW-rZ8"/>
                             <constraint firstItem="1yq-cv-eR5" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="KuP-Nv-IfI"/>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="width" secondItem="1yq-cv-eR5" secondAttribute="width" id="Kz6-2r-bEn"/>
+                            <constraint firstAttribute="centerY" secondItem="Wto-rd-1CJ" secondAttribute="centerY" id="MAB-as-FR6"/>
                             <constraint firstAttribute="centerX" secondItem="gZX-n5-iz8" secondAttribute="centerX" id="P21-48-VWK"/>
                             <constraint firstItem="Lqv-0H-SHV" firstAttribute="leading" secondItem="gZX-n5-iz8" secondAttribute="trailing" constant="10" id="VdM-qX-Ocx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="100" id="WR9-Xb-rTH"/>
@@ -137,7 +137,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08H-8C-EMm">
-                                <rect key="frame" x="201" y="182" width="103" height="30"/>
+                                <rect key="frame" x="201" y="184" width="103" height="30"/>
                                 <state key="normal" title="忘记密码">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -155,7 +155,7 @@
                             <constraint firstItem="Noe-7S-sTL" firstAttribute="leading" secondItem="80A-3d-Qnv" secondAttribute="leadingMargin" id="ENn-b7-bsR"/>
                             <constraint firstItem="Noe-7S-sTL" firstAttribute="trailing" secondItem="80A-3d-Qnv" secondAttribute="trailingMargin" id="O5J-eO-KEx"/>
                             <constraint firstItem="tyy-WM-lIF" firstAttribute="top" secondItem="egf-oC-1Sp" secondAttribute="bottom" constant="30" id="SLT-HP-cM5"/>
-                            <constraint firstItem="08H-8C-EMm" firstAttribute="top" secondItem="Noe-7S-sTL" secondAttribute="bottom" constant="8" id="Zq9-UW-0oG"/>
+                            <constraint firstItem="08H-8C-EMm" firstAttribute="top" secondItem="Noe-7S-sTL" secondAttribute="bottom" constant="10" id="Zq9-UW-0oG"/>
                             <constraint firstItem="Noe-7S-sTL" firstAttribute="top" secondItem="tyy-WM-lIF" secondAttribute="bottom" constant="20" id="bxR-Rr-GOo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="08H-8C-EMm" secondAttribute="trailing" id="he5-d4-vHE"/>
                             <constraint firstItem="tyy-WM-lIF" firstAttribute="leading" secondItem="80A-3d-Qnv" secondAttribute="leadingMargin" id="qLx-Pd-CHk"/>
