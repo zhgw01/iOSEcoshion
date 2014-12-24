@@ -25,7 +25,7 @@
         <!--手机注册-->
         <scene sceneID="I9n-aF-evg">
             <objects>
-                <viewController id="5Rc-Y7-lw4" sceneMemberID="viewController">
+                <viewController id="5Rc-Y7-lw4" customClass="PhoneRegisterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XOv-gd-8JJ"/>
                         <viewControllerLayoutGuide type="bottom" id="gSA-N0-2jD"/>
@@ -111,7 +111,7 @@
         <!--手机登录-->
         <scene sceneID="Njk-1N-NgE">
             <objects>
-                <viewController id="pQH-Z6-8Ly" sceneMemberID="viewController">
+                <viewController id="pQH-Z6-8Ly" customClass="PhoneLoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="egf-oC-1Sp"/>
                         <viewControllerLayoutGuide type="bottom" id="F0r-5w-sOK"/>
@@ -173,7 +173,7 @@
         <!--重置密码-->
         <scene sceneID="0P8-Tt-WJs">
             <objects>
-                <viewController id="YWf-vE-0wk" sceneMemberID="viewController">
+                <viewController id="YWf-vE-0wk" customClass="PhoneResetPasswordViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bii-WW-l3w"/>
                         <viewControllerLayoutGuide type="bottom" id="27C-0H-47B"/>
