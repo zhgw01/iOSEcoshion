@@ -10,4 +10,29 @@
 
 @implementation AccountManager
 
++ (instancetype)sharedManager
+{
+    static AccountManager *manager;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [[AccountManager alloc] initPrivate];
+    });
+    
+    return manager;
+}
+
+- (instancetype)init
+{
+    return [[self class] sharedManager];
+}
+
+- (instancetype)initPrivate
+{
+    if (self = [super init]) {
+        // TODO:
+    }
+    
+    return self;
+}
+
 @end

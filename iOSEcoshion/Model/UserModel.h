@@ -10,4 +10,8 @@
 
 @interface UserModel : NSObject
 
++ (instancetype)createUserName:(NSString *)aUserName email:(NSString *)aEmail address:(NSString *)aAddress phoneNumber:(NSString *)aPhoneNumber;
+
+// TODO: add get method if needed.
+
 @end

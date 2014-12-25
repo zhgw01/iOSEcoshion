@@ -12,6 +12,7 @@
 		F277AA171A4C2CC400E5DC27 /* ChooseBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */; };
 		F277AA4F1A4C329200E5DC27 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA4E1A4C329200E5DC27 /* AccountManager.m */; };
 		F277AA521A4C32B100E5DC27 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA511A4C32B100E5DC27 /* UserModel.m */; };
+		F277AA551A4C3AF600E5DC27 /* ServerCommunination.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA541A4C3AF600E5DC27 /* ServerCommunination.m */; };
 		F2C374E51A47C5A900AFEFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E41A47C5A900AFEFD0 /* main.m */; };
 		F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */; };
 		F2C374EE1A47C5AA00AFEFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */; };
@@ -73,6 +74,8 @@
 		F277AA4E1A4C329200E5DC27 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		F277AA501A4C32B100E5DC27 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		F277AA511A4C32B100E5DC27 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		F277AA531A4C3AF600E5DC27 /* ServerCommunination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCommunination.h; sourceTree = "<group>"; };
+		F277AA541A4C3AF600E5DC27 /* ServerCommunination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCommunination.m; sourceTree = "<group>"; };
 		F2C374DF1A47C5A900AFEFD0 /* iOSEcoshion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEcoshion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374E31A47C5A900AFEFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C374E41A47C5A900AFEFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -336,6 +339,8 @@
 				F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */,
 				F277AA4D1A4C329200E5DC27 /* AccountManager.h */,
 				F277AA4E1A4C329200E5DC27 /* AccountManager.m */,
+				F277AA531A4C3AF600E5DC27 /* ServerCommunination.h */,
+				F277AA541A4C3AF600E5DC27 /* ServerCommunination.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				F2F71F201A480C2F0088B576 /* UIImage+Addition.m in Sources */,
 				F2F71F231A480C2F0088B576 /* UINavigationController+BarColorStyle.m in Sources */,
 				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
+				F277AA551A4C3AF600E5DC27 /* ServerCommunination.m in Sources */,
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
 				F2F71FC11A4BC5960088B576 /* InputHelper.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,

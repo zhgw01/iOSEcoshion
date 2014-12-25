@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UserModel.h"
 
 @interface AccountManager : NSObject
+
+@property (nonatomic, strong) UserModel *currentUser;
+
++ (instancetype)sharedManager;
 
 @end
