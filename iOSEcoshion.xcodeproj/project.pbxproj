@@ -44,6 +44,7 @@
 		F2F71F821A4AB6CD0088B576 /* PhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */; };
 		F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */; };
 		F2F71FBD1A4BB9EC0088B576 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71FBC1A4BB9EC0088B576 /* RootViewController.m */; };
+		F2F71FC11A4BC5960088B576 /* InputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71FC01A4BC5960088B576 /* InputHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,8 @@
 		F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneResetPasswordViewController.m; sourceTree = "<group>"; };
 		F2F71FBB1A4BB9EC0088B576 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F2F71FBC1A4BB9EC0088B576 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F2F71FBF1A4BC5960088B576 /* InputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHelper.h; sourceTree = "<group>"; };
+		F2F71FC01A4BC5960088B576 /* InputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +278,7 @@
 		F2F71EEE1A47FEE90088B576 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71FBE1A4BC5960088B576 /* InputHelper */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -382,6 +386,15 @@
 				F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		F2F71FBE1A4BC5960088B576 /* InputHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F2F71FBF1A4BC5960088B576 /* InputHelper.h */,
+				F2F71FC01A4BC5960088B576 /* InputHelper.m */,
+			);
+			path = InputHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,6 +547,7 @@
 				F2F71F231A480C2F0088B576 /* UINavigationController+BarColorStyle.m in Sources */,
 				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
+				F2F71FC11A4BC5960088B576 /* InputHelper.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
 				F2F71FBD1A4BB9EC0088B576 /* RootViewController.m in Sources */,
 				F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */,
