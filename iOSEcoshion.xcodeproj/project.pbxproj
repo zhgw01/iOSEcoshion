@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D46DD69BAEC9D27C714BF035 /* libPods-iOSEcoshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */; };
 		F277A9DF1A4C167300E5DC27 /* BindingMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277A9DE1A4C167300E5DC27 /* BindingMailViewController.m */; };
+		F277AA171A4C2CC400E5DC27 /* ChooseBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */; };
 		F2C374E51A47C5A900AFEFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E41A47C5A900AFEFD0 /* main.m */; };
 		F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */; };
 		F2C374EE1A47C5AA00AFEFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */; };
@@ -64,6 +65,8 @@
 		91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSEcoshion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F277A9DD1A4C167300E5DC27 /* BindingMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingMailViewController.h; sourceTree = "<group>"; };
 		F277A9DE1A4C167300E5DC27 /* BindingMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingMailViewController.m; sourceTree = "<group>"; };
+		F277AA151A4C2CC400E5DC27 /* ChooseBrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBrandViewController.h; sourceTree = "<group>"; };
+		F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBrandViewController.m; sourceTree = "<group>"; };
 		F2C374DF1A47C5A900AFEFD0 /* iOSEcoshion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEcoshion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374E31A47C5A900AFEFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C374E41A47C5A900AFEFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -385,6 +388,8 @@
 				F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */,
 				F277A9DD1A4C167300E5DC27 /* BindingMailViewController.h */,
 				F277A9DE1A4C167300E5DC27 /* BindingMailViewController.m */,
+				F277AA151A4C2CC400E5DC27 /* ChooseBrandViewController.h */,
+				F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */,
 				F2F71F801A4AB6CD0088B576 /* PhoneLoginViewController.h */,
 				F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */,
 				F2F71F831A4AB6E00088B576 /* PhoneResetPasswordViewController.h */,
@@ -561,6 +566,7 @@
 				F277A9DF1A4C167300E5DC27 /* BindingMailViewController.m in Sources */,
 				F2F71F261A480C2F0088B576 /* UIView+Frame.m in Sources */,
 				F2F71F211A480C2F0088B576 /* UIImage+BlurEffect.m in Sources */,
+				F277AA171A4C2CC400E5DC27 /* ChooseBrandViewController.m in Sources */,
 				F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */,
 				F2F71F821A4AB6CD0088B576 /* PhoneLoginViewController.m in Sources */,
 				F2C374E51A47C5A900AFEFD0 /* main.m in Sources */,

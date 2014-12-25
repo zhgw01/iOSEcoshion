@@ -11,6 +11,9 @@
 @interface BindingMailViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
+@property (weak, nonatomic) IBOutlet UITextField *mailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
 
 @end
 
@@ -26,14 +29,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    NSString *mailInformation = [NSString stringWithFormat:@"邮箱：%@， 用户名：%@", self.mailTextField.text, self.usernameTextField.text];
+    [UIAlertView bk_showAlertViewWithTitle:@"确定" message:mailInformation cancelButtonTitle:@"取消" otherButtonTitles:@[@"确定"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+        if (buttonIndex == 1) {
+            [self performSegueWithIdentifier:identifier sender:sender];
+        }
+    }];
+    
+    return NO;
 }
-*/
 
 @end

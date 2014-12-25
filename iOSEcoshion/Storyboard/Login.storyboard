@@ -201,6 +201,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.87188289141414144" green="0.87188289141414144" blue="0.87188289141414144" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="lwP-7B-oOD" secondAttribute="trailing" constant="-16" id="NRv-TR-imq"/>
                             <constraint firstItem="lwP-7B-oOD" firstAttribute="top" secondItem="odP-oJ-RGm" secondAttribute="bottom" id="O0v-1P-Gis"/>
@@ -214,15 +215,45 @@
                             <constraint firstAttribute="centerX" secondItem="1JB-Zv-ifY" secondAttribute="centerX" id="z5c-bz-BZc"/>
                             <constraint firstItem="Tct-i1-SgX" firstAttribute="trailing" secondItem="Lzg-RE-B77" secondAttribute="trailingMargin" id="zvo-iw-NIJ"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Kh3-d5-Qjf" appends="YES" id="FgO-Xa-sxm"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="注册" id="8W9-ry-I8H"/>
                     <connections>
                         <outlet property="backgroundImageView" destination="lwP-7B-oOD" id="Owv-q1-qV1"/>
+                        <outlet property="mailTextField" destination="nhE-WC-L9S" id="nz6-E2-Byh"/>
+                        <outlet property="photoImageView" destination="1JB-Zv-ifY" id="UAt-zi-QCG"/>
+                        <outlet property="usernameTextField" destination="C9o-pT-Ram" id="EgA-W4-d79"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4S-7x-chs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Kh3-d5-Qjf">
+                    <connections>
+                        <segue destination="so4-Bp-S7p" kind="push" identifier="pushChooseBrandSegue" id="Vuw-E1-to7"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1531" y="-86"/>
+        </scene>
+        <!--Choose Brand View Controller-->
+        <scene sceneID="t5J-Wc-gaH">
+            <objects>
+                <viewController id="so4-Bp-S7p" customClass="ChooseBrandViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t4G-Mg-ybb"/>
+                        <viewControllerLayoutGuide type="bottom" id="aMv-er-B1Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Guf-Ij-RcB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Gi-Mm-ctg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4aW-vv-J8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="-86"/>
         </scene>
         <!--手机登录-->
         <scene sceneID="Njk-1N-NgE">
