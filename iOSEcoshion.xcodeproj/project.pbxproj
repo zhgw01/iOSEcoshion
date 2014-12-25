@@ -10,6 +10,8 @@
 		D46DD69BAEC9D27C714BF035 /* libPods-iOSEcoshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B83D7F47DAE13D217E70CC /* libPods-iOSEcoshion.a */; };
 		F277A9DF1A4C167300E5DC27 /* BindingMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277A9DE1A4C167300E5DC27 /* BindingMailViewController.m */; };
 		F277AA171A4C2CC400E5DC27 /* ChooseBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */; };
+		F277AA4F1A4C329200E5DC27 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA4E1A4C329200E5DC27 /* AccountManager.m */; };
+		F277AA521A4C32B100E5DC27 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F277AA511A4C32B100E5DC27 /* UserModel.m */; };
 		F2C374E51A47C5A900AFEFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E41A47C5A900AFEFD0 /* main.m */; };
 		F2C374E81A47C5AA00AFEFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C374E71A47C5AA00AFEFD0 /* AppDelegate.m */; };
 		F2C374EE1A47C5AA00AFEFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C374EC1A47C5AA00AFEFD0 /* Main.storyboard */; };
@@ -67,6 +69,10 @@
 		F277A9DE1A4C167300E5DC27 /* BindingMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingMailViewController.m; sourceTree = "<group>"; };
 		F277AA151A4C2CC400E5DC27 /* ChooseBrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBrandViewController.h; sourceTree = "<group>"; };
 		F277AA161A4C2CC400E5DC27 /* ChooseBrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBrandViewController.m; sourceTree = "<group>"; };
+		F277AA4D1A4C329200E5DC27 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		F277AA4E1A4C329200E5DC27 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		F277AA501A4C32B100E5DC27 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		F277AA511A4C32B100E5DC27 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		F2C374DF1A47C5A900AFEFD0 /* iOSEcoshion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEcoshion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C374E31A47C5A900AFEFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C374E41A47C5A900AFEFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -307,6 +313,8 @@
 		F2F71EF31A47FF510088B576 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F277AA501A4C32B100E5DC27 /* UserModel.h */,
+				F277AA511A4C32B100E5DC27 /* UserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,6 +334,8 @@
 				F2F71F2C1A480ED80088B576 /* Macros.h */,
 				F2F71F791A4AB3460088B576 /* AppearanceManager.h */,
 				F2F71F7A1A4AB3460088B576 /* AppearanceManager.m */,
+				F277AA4D1A4C329200E5DC27 /* AccountManager.h */,
+				F277AA4E1A4C329200E5DC27 /* AccountManager.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -559,8 +569,10 @@
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
 				F2F71FC11A4BC5960088B576 /* InputHelper.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
+				F277AA4F1A4C329200E5DC27 /* AccountManager.m in Sources */,
 				F2F71FBD1A4BB9EC0088B576 /* RootViewController.m in Sources */,
 				F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */,
+				F277AA521A4C32B100E5DC27 /* UserModel.m in Sources */,
 				F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */,
 				F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */,
 				F277A9DF1A4C167300E5DC27 /* BindingMailViewController.m in Sources */,
