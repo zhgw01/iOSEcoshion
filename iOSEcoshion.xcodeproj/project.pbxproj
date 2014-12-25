@@ -43,6 +43,7 @@
 		F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */; };
 		F2F71F821A4AB6CD0088B576 /* PhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */; };
 		F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */; };
+		F2F71FBD1A4BB9EC0088B576 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F71FBC1A4BB9EC0088B576 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,8 @@
 		F2F71F811A4AB6CD0088B576 /* PhoneLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneLoginViewController.m; sourceTree = "<group>"; };
 		F2F71F831A4AB6E00088B576 /* PhoneResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneResetPasswordViewController.h; sourceTree = "<group>"; };
 		F2F71F841A4AB6E00088B576 /* PhoneResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneResetPasswordViewController.m; sourceTree = "<group>"; };
+		F2F71FBB1A4BB9EC0088B576 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F2F71FBC1A4BB9EC0088B576 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +372,8 @@
 		F2F71F7C1A4AB6830088B576 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71FBB1A4BB9EC0088B576 /* RootViewController.h */,
+				F2F71FBC1A4BB9EC0088B576 /* RootViewController.m */,
 				F2F71F7D1A4AB6BA0088B576 /* PhoneRegisterViewController.h */,
 				F2F71F7E1A4AB6BA0088B576 /* PhoneRegisterViewController.m */,
 				F2F71F801A4AB6CD0088B576 /* PhoneLoginViewController.h */,
@@ -530,6 +535,7 @@
 				F2F71F1C1A480C2F0088B576 /* NSString+Regular.m in Sources */,
 				F2F71F711A49049B0088B576 /* TemplateViewController.m in Sources */,
 				F2F71F1A1A480C2F0088B576 /* NSString+Addition.m in Sources */,
+				F2F71FBD1A4BB9EC0088B576 /* RootViewController.m in Sources */,
 				F2F71F7F1A4AB6BA0088B576 /* PhoneRegisterViewController.m in Sources */,
 				F2F71F851A4AB6E00088B576 /* PhoneResetPasswordViewController.m in Sources */,
 				F2F71F1D1A480C2F0088B576 /* NSString+Size.m in Sources */,

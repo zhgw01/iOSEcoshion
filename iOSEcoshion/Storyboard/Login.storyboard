@@ -15,12 +15,60 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="5Rc-Y7-lw4" kind="relationship" relationship="rootViewController" id="TrG-4f-q8O"/>
+                        <segue destination="dLv-Bg-bJV" kind="relationship" relationship="rootViewController" id="lmH-hl-i3q"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhL-aW-Mmq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="216" y="442.09333333333331"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="KrH-Kx-EUf">
+            <objects>
+                <viewController id="dLv-Bg-bJV" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ll9-Ih-BBF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vo7-qy-tvm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Whs-T3-cnr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gep-z9-rCL">
+                                <rect key="frame" x="16" y="438" width="288" height="30"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5Rc-Y7-lw4" kind="push" id="uVH-g6-W8P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9Q-xA-bLQ">
+                                <rect key="frame" x="16" y="476" width="288" height="30"/>
+                                <state key="normal" title="已经有账户了吗？点击登录！">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pQH-Z6-8Ly" kind="push" id="Sa0-01-Ncf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gep-z9-rCL" firstAttribute="leading" secondItem="Whs-T3-cnr" secondAttribute="leadingMargin" id="QT6-E0-jBN"/>
+                            <constraint firstItem="f9Q-xA-bLQ" firstAttribute="leading" secondItem="Whs-T3-cnr" secondAttribute="leadingMargin" id="Vvu-4C-atI"/>
+                            <constraint firstItem="Vo7-qy-tvm" firstAttribute="top" secondItem="gep-z9-rCL" secondAttribute="bottom" constant="100" id="ehb-X3-GxO"/>
+                            <constraint firstItem="Vo7-qy-tvm" firstAttribute="top" secondItem="f9Q-xA-bLQ" secondAttribute="bottom" constant="62" id="iMZ-TF-E3S"/>
+                            <constraint firstItem="gep-z9-rCL" firstAttribute="trailing" secondItem="Whs-T3-cnr" secondAttribute="trailingMargin" id="otO-Rw-gZ4"/>
+                            <constraint firstItem="f9Q-xA-bLQ" firstAttribute="trailing" secondItem="Whs-T3-cnr" secondAttribute="trailingMargin" id="xo0-dq-yTu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GUu-D3-glJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RnM-JQ-ic9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="442"/>
         </scene>
         <!--手机注册-->
         <scene sceneID="I9n-aF-evg">
@@ -61,26 +109,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqv-0H-SHV">
-                                <rect key="frame" x="229" y="303" width="30" height="30"/>
-                                <state key="normal" title="登录">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pQH-Z6-8Ly" kind="push" id="UDS-V4-LTp"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有账号，点此" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZX-n5-iz8">
-                                <rect key="frame" x="100" y="307" width="119" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="089-eP-bQ5"/>
-                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="4" id="8vo-5u-k6f"/>
                             <constraint firstItem="sqo-X2-clg" firstAttribute="top" secondItem="1yq-cv-eR5" secondAttribute="bottom" constant="20" id="BlW-AG-580"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="leading" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="10" id="CPM-MK-yyU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Gu1-E9-qdo" secondAttribute="trailing" id="CRa-Wt-PTz"/>
@@ -88,11 +120,8 @@
                             <constraint firstItem="1yq-cv-eR5" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="KuP-Nv-IfI"/>
                             <constraint firstItem="Gu1-E9-qdo" firstAttribute="width" secondItem="1yq-cv-eR5" secondAttribute="width" id="Kz6-2r-bEn"/>
                             <constraint firstAttribute="centerY" secondItem="Wto-rd-1CJ" secondAttribute="centerY" id="MAB-as-FR6"/>
-                            <constraint firstAttribute="centerX" secondItem="gZX-n5-iz8" secondAttribute="centerX" id="P21-48-VWK"/>
-                            <constraint firstItem="Lqv-0H-SHV" firstAttribute="leading" secondItem="gZX-n5-iz8" secondAttribute="trailing" constant="10" id="VdM-qX-Ocx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sqo-X2-clg" secondAttribute="trailing" constant="100" id="WR9-Xb-rTH"/>
                             <constraint firstItem="dcB-Xy-2JN" firstAttribute="top" secondItem="1yq-cv-eR5" secondAttribute="bottom" constant="20" id="ZsN-di-Dh9"/>
-                            <constraint firstItem="gZX-n5-iz8" firstAttribute="top" secondItem="Wto-rd-1CJ" secondAttribute="bottom" constant="8" id="d4I-IU-E8Z"/>
                             <constraint firstItem="sqo-X2-clg" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="eKJ-ko-YHS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1yq-cv-eR5" secondAttribute="trailing" id="f4b-u7-rGo"/>
                             <constraint firstItem="Wto-rd-1CJ" firstAttribute="leading" secondItem="4PY-Oa-K0L" secondAttribute="leadingMargin" id="hps-RE-kyv"/>
@@ -106,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u0h-bs-SKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="442"/>
+            <point key="canvasLocation" x="1126" y="-86"/>
         </scene>
         <!--手机登录-->
         <scene sceneID="Njk-1N-NgE">
@@ -168,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mD1-h6-PRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1030" y="442"/>
+            <point key="canvasLocation" x="1126" y="812"/>
         </scene>
         <!--重置密码-->
         <scene sceneID="0P8-Tt-WJs">
@@ -235,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0G4-nq-ses" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1422" y="442"/>
+            <point key="canvasLocation" x="1531" y="812"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
