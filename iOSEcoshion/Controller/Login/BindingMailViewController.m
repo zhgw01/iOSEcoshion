@@ -31,7 +31,7 @@
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
-    NSString *mailInformation = [NSString stringWithFormat:@"邮箱：%@， 用户名：%@", self.mailTextField.text, self.usernameTextField.text];
+    NSString *mailInformation = [NSString stringWithFormat:@"邮箱：%@\n用户名：%@", self.mailTextField.text, self.usernameTextField.text];
     [UIAlertView bk_showAlertViewWithTitle:@"确定" message:mailInformation cancelButtonTitle:@"取消" otherButtonTitles:@[@"确定"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
         if (buttonIndex == 1) {
             [self performSegueWithIdentifier:identifier sender:sender];

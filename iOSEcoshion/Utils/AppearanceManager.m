@@ -8,6 +8,14 @@
 
 #import "AppearanceManager.h"
 
+@interface AppearanceManager ()
+
+@property (nonatomic, strong) UIColor *viewBackgroundColor;
+@property (nonatomic, strong) UIColor *navigationBarTintColor;
+@property (nonatomic, strong) UIColor *navigationTintColor;
+
+@end
+
 @implementation AppearanceManager
 
 #pragma mark - Absolutely singleton
