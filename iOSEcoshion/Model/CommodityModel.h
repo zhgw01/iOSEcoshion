@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UserModel.h"
+
+@class UserModel;
+@class UserAddressModel;
 
 #pragma mark - Base commodity model
 @interface CommodityModel : NSObject
@@ -21,7 +23,7 @@
 @property (nonatomic, copy) NSNumber *originalPrice;
 @property (nonatomic, copy) NSNumber *currentPrice;
 
-@property (nonatomic, copy) NSNumber *size;
+@property (nonatomic, copy) NSString *size;
 
 @property (nonatomic, copy) NSString *publishDate;
 
@@ -31,7 +33,9 @@
 @property (nonatomic, copy) NSArray *comments;          // @[@{UserModel: @"comment"}, ...]
 @property (nonatomic, copy) NSArray *imagesAddress;     // @[@"image address 1", ...]
 
-@property (nonatomic, weak) UserModel *ownerr;          // who it belongs to. **use WEAK reference**
+@property (nonatomic, weak) UserModel *owner;           // who it belongs to. **use WEAK reference**
+@property (nonatomic, weak) UserModel *customer;        // who purchase it.
+@property (nonatomic, strong) UserAddressModel *customerAddress;
 
 @end
 
@@ -86,3 +90,5 @@
 @interface Accessory : CommodityModel
 
 @end
+
+// TODO: add more concreate commodity model if needed.

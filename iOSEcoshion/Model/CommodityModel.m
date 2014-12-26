@@ -7,6 +7,8 @@
 //
 
 #import "CommodityModel.h"
+#import "UserModel.h"
+#import "UserAddressModel.h"
 
 @implementation CommodityModel
 

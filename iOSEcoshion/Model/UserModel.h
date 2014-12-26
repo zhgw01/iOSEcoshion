@@ -8,10 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@class UserAddressModel;
+
 @interface UserModel : NSObject
 
-+ (instancetype)createUserName:(NSString *)aUserName email:(NSString *)aEmail address:(NSString *)aAddress phoneNumber:(NSString *)aPhoneNumber;
+@property (nonatomic, copy, readonly) NSString *userName;
+@property (nonatomic, copy, readonly) NSString *userEmail;
+@property (nonatomic, copy, readonly) NSString *userPhoneNumber;
 
-// TODO: add get method if needed.
++ (instancetype)createUserName:(NSString *)aUserName
+                         email:(NSString *)aEmail
+                   phoneNumber:(NSString *)aPhoneNumber;
+
+- (NSArray *)userAddressImmutable;
+- (void)addAddress:(UserAddressModel *)addressModel;
 
 @end
