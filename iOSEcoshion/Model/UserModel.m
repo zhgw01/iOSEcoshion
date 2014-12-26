@@ -10,10 +10,10 @@
 
 @interface UserModel ()
 
-@property (nonatomic, strong) NSString *userName;
-@property (nonatomic, strong) NSString *userEmail;
-@property (nonatomic, strong) NSString *userAddress;
-@property (nonatomic, strong) NSString *userPhoneNumber;
+@property (nonatomic, copy) NSString *userName;
+@property (nonatomic, copy) NSString *userEmail;
+@property (nonatomic, copy) NSString *userAddress;
+@property (nonatomic, copy) NSString *userPhoneNumber;
 
 @end
 
