@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <ShareSDK/ShareSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    //register share sdk, fill weibo related information
+    [ShareSDK registerApp:kShareSDKAppKey];
+    [ShareSDK connectSinaWeiboWithAppKey:kSinaAppKey appSecret:kSinaAppSecret redirectUri:kSinaRedirectUri];
     
     return YES;
 }

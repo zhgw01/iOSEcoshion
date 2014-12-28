@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9E5-1X-4Fe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9E5-1X-4Fe">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -54,10 +54,22 @@
                                     <segue destination="pQH-Z6-8Ly" kind="push" id="Sa0-01-Ncf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWp-Rm-i3f">
+                                <rect key="frame" x="16" y="372" width="288" height="30"/>
+                                <state key="normal" title="微博登陆">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginWithWeibo:" destination="dLv-Bg-bJV" eventType="touchUpInside" id="wPh-Sc-dg6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="XWp-Rm-i3f" secondAttribute="trailing" id="8kd-m1-qVK"/>
                             <constraint firstItem="gep-z9-rCL" firstAttribute="leading" secondItem="Whs-T3-cnr" secondAttribute="leadingMargin" id="QT6-E0-jBN"/>
+                            <constraint firstItem="XWp-Rm-i3f" firstAttribute="leading" secondItem="Whs-T3-cnr" secondAttribute="leadingMargin" id="RyE-CZ-gGH"/>
+                            <constraint firstItem="gep-z9-rCL" firstAttribute="top" secondItem="XWp-Rm-i3f" secondAttribute="bottom" constant="36" id="VRC-Y2-bFv"/>
                             <constraint firstItem="f9Q-xA-bLQ" firstAttribute="leading" secondItem="Whs-T3-cnr" secondAttribute="leadingMargin" id="Vvu-4C-atI"/>
                             <constraint firstItem="Vo7-qy-tvm" firstAttribute="top" secondItem="gep-z9-rCL" secondAttribute="bottom" constant="100" id="ehb-X3-GxO"/>
                             <constraint firstItem="Vo7-qy-tvm" firstAttribute="top" secondItem="f9Q-xA-bLQ" secondAttribute="bottom" constant="62" id="iMZ-TF-E3S"/>

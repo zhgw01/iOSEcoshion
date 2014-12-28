@@ -32,6 +32,14 @@
 // 系统
 #define miOS7Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 
+//---------第三份登陆需要的key跟sceret （以后需加密)--------
+#define kShareSDKAppKey        @"4efab1900240"
+
+//sina weibo related, we should replace it with our own
+#define kSinaAppKey            @"568898243"
+#define kSinaAppSecret         @"38a4f8204cc784f81f9f0daaf31e02e3"
+#define kSinaRedirectUri       @"http://www.sharesdk.cn"
+
 #ifndef  __OPTIMIZE__
 #define DEBUGLOG(...)   NSLog(__VA_ARGS__)
 #define DEBUGPrintBaseLog	NSLog(@"%s(%d)", __FUNCTION__, __LINE__)

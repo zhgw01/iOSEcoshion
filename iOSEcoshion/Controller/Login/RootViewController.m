@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#include <ShareSDK/ShareSDK.h>
 
 @interface RootViewController ()
 
@@ -34,6 +35,31 @@
 {
     [super viewWillDisappear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:NO];
+}
+- (IBAction)loginWithWeibo:(id)sender {
+    NSLog(@"Login with Weibo");
+    
+    [ShareSDK getUserInfoWithType:ShareTypeSinaWeibo
+                      authOptions:nil
+                           result:^(BOOL result, id<ISSPlatformUser> userInfo, id<ICMErrorInfo> error) {
+                               if (result) {
+                                   NSLog(@"Login Successfuly, jump to main view");
+                                   NSLog(@"uid = %@",[userInfo uid]);
+                                   NSLog(@"name = %@",[userInfo nickname]);
+                                   NSLog(@"icon = %@",[userInfo profileImage]);
+                                   
+                                
+                                   //Todo: refactor this code to somewhere, just for testing
+                                   UIViewController* controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
+                                   
+                                   [self.navigationController pushViewController:controller animated:YES];
+                                
+                                   
+                               } else {
+                                   NSLog(@"error info: %@", [error description]);
+                               }
+        
+    }];
 }
 
 /*
